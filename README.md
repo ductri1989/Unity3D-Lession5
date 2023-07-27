@@ -20,10 +20,21 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 
 | Mixamo | https://www.mixamo.com |
 | ------ | ------ |
-| Nhân vật | Maria W/Prop J J Ong |
-| Idle | Unarmed Idle |
-| Move | Unarmed Run Forward |
-| Attack | Standing Melee Attack Horizontal |
+| Nhân vật | Erika Archer With Bow Arrow |
+| Idle | standing idle 01 |
+| Moving | Standing run forward |
+| Đá | standing melee kick |
+| Đấm | standing melee punch |
+| Rút tên | standing draw arrow |
+| Kéo tên | standing aim overdraw |
+| Thả tên | standing aim recoil |
+| Rơi xuống | fall a loop |
+| Rơi xuống chạm đất | fall a land to standing idle 01 |
+| Rút | standing |
+| Rút | standing |
+| Rút | standing |
+| Rút | standing |
+| Rút | standing |
 | Jump | jumping |
 
 ### Cấu trúc Folder
