@@ -6,8 +6,8 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 - Trang trí map
 - Setup nhân vật ErikaArcher
   1. Tạo 1 gameobject mới
-  2. Thêm component : Mesh Filter → gắn Mesh của tên vào
-  3. Thêm component : Mesh Renderer → gắn Materials vào
+  2. Thêm component `Mesh Filter` → gắn Mesh của mũi tên
+  3. Thêm component `Mesh Renderer` → gắn Materials của mũi tên
   4. Tạo Prefab : Arrow
 - Setup camera
 - Setup quái
