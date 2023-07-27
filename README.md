@@ -24,7 +24,10 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 
 | Mixamo | https://www.mixamo.com |
 | ------ | ------ |
-| Nhân vật | Erika Archer With Bow Arrow |
+| MyPlayer | Erika Archer With Bow Arrow |
+| Quái | Doozy |
+| Quái | Mousey |
+| Boss | Ortiz |
 | Idle | standing idle 01 |
 | Moving | Standing run forward |
 | Đá | standing melee kick |
