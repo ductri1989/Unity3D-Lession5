@@ -5,6 +5,10 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 - Tạo project 3D
 - Trang trí map
 - Setup nhân vật
+  1. Tạo 1 gameobject mới
+  2. Thêm component : Mesh Filter → gắn Mesh của tên vào
+  3. Thêm component : Mesh Renderer → gắn Materials vào
+  4. Tạo prefab : Arrow
 - Setup camera
 - Setup quái
   - Quái di chuyển theo 1 quỹ đạo
