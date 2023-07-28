@@ -32,7 +32,7 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 | Thả tên | standing aim recoil |
 | Rơi xuống | fall a loop |
 | Rơi xuống chạm đất | fall a land to standing idle 01 |
-| Jump | jumping |
+| Jump | jumping up |
 | ------ | ------ |
 | Quái | Doozy |
 | Quái | Mousey |
@@ -46,8 +46,9 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
     + 📁Các plugin trong game
     + 📁Scenes
         + 📁Model
-            + 📁ErikaArcher : chứa 📁Animations + 📁Prefabs + 🔊Musics
+            + 📁ErikaArcher : chứa 📁Animations + 🔊Musics
             + 📁Enemies : chứa các quái và boss trong game
+            + 📁Prefabs : chứa các vật thể trong game
         + 📁SC_Splash : nơi chứa tài nguyên của Scene 
         + 📁SC_Home : Sau khi vào splash thì vào home
         + 📁SC_LV1 :
