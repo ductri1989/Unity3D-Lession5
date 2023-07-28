@@ -39,6 +39,7 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 | Boss | Ortiz |
 | Đá | standing melee kick |
 | Đấm | standing melee punch |
+| Bị tấn công | Head hit |
 
 ### Cấu trúc Folder
 + Assets
