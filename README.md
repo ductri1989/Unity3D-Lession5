@@ -25,19 +25,20 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 | Mixamo | https://www.mixamo.com |
 | ------ | ------ |
 | MyPlayer | Erika Archer With Bow Arrow |
-| Quái | Doozy |
-| Quái | Mousey |
-| Boss | Ortiz |
 | Idle | standing idle 01 |
 | Moving | Standing run forward |
-| Đá | standing melee kick |
-| Đấm | standing melee punch |
 | Rút tên | standing draw arrow |
 | Kéo tên | standing aim overdraw |
 | Thả tên | standing aim recoil |
 | Rơi xuống | fall a loop |
 | Rơi xuống chạm đất | fall a land to standing idle 01 |
 | Jump | jumping |
+| ------ | ------ |
+| Quái | Doozy |
+| Quái | Mousey |
+| Boss | Ortiz |
+| Đá | standing melee kick |
+| Đấm | standing melee punch |
 
 ### Cấu trúc Folder
 + Assets
