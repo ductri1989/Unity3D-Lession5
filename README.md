@@ -4,7 +4,11 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 ### Phạm vi bài giảng
 - Tạo project 3D
 - Trang trí map
-- Setup nhân vật
+- Setup nhân vật ErikaArcher
+  1. Tạo 1 `GameoOject` mới
+  2. Thêm component `Mesh Filter` → gắn Mesh của mũi tên
+  3. Thêm component `Mesh Renderer` → gắn Materials của mũi tên
+  4. Tạo Prefab : Arrow
 - Setup camera
 - Setup quái
   - Quái di chuyển theo 1 quỹ đạo
@@ -20,26 +24,38 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 
 | Mixamo | https://www.mixamo.com |
 | ------ | ------ |
-| Nhân vật | Maria W/Prop J J Ong |
-| Idle | Unarmed Idle |
-| Move | Unarmed Run Forward |
-| Attack | Standing Melee Attack Horizontal |
-| Jump | jumping |
+| MyPlayer | Erika Archer With Bow Arrow |
+| Idle | standing idle 01 |
+| Moving | Standing run forward |
+| Rút tên | standing draw arrow |
+| Kéo tên | standing aim overdraw |
+| Thả tên | standing aim recoil |
+| Rơi xuống | fall a loop |
+| Rơi xuống chạm đất | fall a land to standing idle 01 |
+| Jump | jumping up |
+| ------ | ------ |
+| Quái | Doozy |
+| Quái | Mousey |
+| Boss | Ortiz |
+| Đá | standing melee kick |
+| Đấm | standing melee punch |
+| Bị tấn công | Head hit |
 
 ### Cấu trúc Folder
 + Assets
     + 📁Các plugin trong game
     + 📁Scenes
         + 📁Model
-            + 📁Maria : tất cả resource của nhân vật `Maria` sẽ nằm trong folder này (những anim riêng cũng nằm trong folder này). Cả Materials và Textures của riêng nhân vật Maria cũng nằm trong Folder này
-            + 📁Animation : nơi chứa các animation chung của tất cả nhân vật
+            + 📁ErikaArcher : chứa 📁Animations + 🔊Musics
+            + 📁Enemies : chứa các quái và boss trong game
+            + 📁Prefabs : chứa các vật thể trong game
         + 📁SC_Splash : nơi chứa tài nguyên của Scene 
         + 📁SC_Home : Sau khi vào splash thì vào home
-        + 📁SC_LV1 : Sau khi vào splash thì vào home
+        + 📁SC_LV1 :
             + 📄Scene_LV1 : tên scene có tiền tố `Scene_` để dễ search trên `Unity Editor`
             + ⚙️GameManager.cs : script quản lý chung của scene
 + Document
-    * tài liệu chung
+    * Tài liệu chung
     * SC_Splash
     * SC_Home
 
