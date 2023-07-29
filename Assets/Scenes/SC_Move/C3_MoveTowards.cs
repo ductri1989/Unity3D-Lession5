@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
-public class MoveTowards : MonoBehaviour
+public class C3_MoveTowards : MonoBehaviour
 {
-    Vector3 target = new Vector3(7, 1.5f, 0);
+    Vector3 target = new Vector3(7, 3, 0);
     void Start(){
-        transform.position = new Vector3(-7, 1.5f, 0);
+        transform.position = new Vector3(-7, 3, 0);
     }
 
     void Update(){

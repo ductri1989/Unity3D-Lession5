@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lerp : MonoBehaviour{
-    Vector3 target = new Vector3 (7, 0, 0);
+public class C4_Lerp : MonoBehaviour{
+    Vector3 target = new Vector3 (7, 1.5f, 0);
     void Start(){
-        transform.position = new Vector3(-7, 0, 0);
+        transform.position = new Vector3(-7, 1.5f, 0);
     }
 
     void Update(){

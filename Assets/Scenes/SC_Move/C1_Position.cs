@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Position : MonoBehaviour{
+public class C1_Position : MonoBehaviour{
     void Start()
     {
-        transform.position = new Vector3(-7, 4.5f, 0);
+        transform.position = new Vector3(-7, 6, 0);
     }
 
     void Update()
