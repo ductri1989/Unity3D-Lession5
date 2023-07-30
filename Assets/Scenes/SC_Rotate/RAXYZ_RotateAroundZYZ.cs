@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RAZYZ_RotateAroundZYZ : MonoBehaviour
+public class RAXYZ_RotateAroundZYZ : MonoBehaviour
 {
     [SerializeField] Transform center;
     void Start()
