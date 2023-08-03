@@ -4,11 +4,12 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
 ### Phạm vi bài giảng
 - Tạo project 3D
 - Trang trí map
-- Setup nhân vật ErikaArcher
-  1. Tạo 1 `GameoOject` mới
-  2. Thêm component `Mesh Filter` → gắn Mesh của mũi tên
-  3. Thêm component `Mesh Renderer` → gắn Materials của mũi tên
-  4. Tạo Prefab : Arrow
+- Setup mũi tên từ nhân vật ErikaArcher
+  1. Setup nhân vật `ErikaArcher` như bài trước
+  2. Tạo 1 `GameoOject` mới
+  3. Thêm component `Mesh Filter` → gắn Mesh của mũi tên
+  4. Thêm component `Mesh Renderer` → gắn Materials của mũi tên
+  5. Tạo Prefab : `Arrow`
 - Setup camera
 - Setup quái
   - Quái di chuyển theo 1 quỹ đạo
@@ -18,8 +19,7 @@ Chủ đề : cả lớp cùng làm 1 game nhập vai. Điều khiển 1 nhân v
   - Setting
   - Mission : nhiệm vụ trong game
   - PlayerInfo : thông tin nhân vật
-- Tạo Prefab cung tên để bắn quái từ tọa độ MyPlayer di chuyển đến quái. Nếu va chạm thì chết quái/rương, không thì hủy Gameobject đi
-- Sử dụng hàm va chạm : OnCollisionEnter để xử lý va chạm giữa MyPlayer và quái
+- Sử dụng hàm va chạm : OnCollisionEnter để xử lý va chạm giữa `Arrow` và quái
 
 ### Resource
 
